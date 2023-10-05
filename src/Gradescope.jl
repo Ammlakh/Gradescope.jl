@@ -1,5 +1,4 @@
 module Gradescope
-
 using JSON
 using ZipFile
 using Parameters
