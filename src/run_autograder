@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+export PATH=$PATH:/julia-1.6.2/bin
+cp -r /autograder/submission/* /autograder/source/
+cd /autograder/source
+julia --color=yes run_autograder.jl
